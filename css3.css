@@ -5,8 +5,8 @@ Importing Google font - Open Sans */
     padding: 0;
   }
   img{
-    width: 2054px;
-    height: 976px;
+    width: 3oopx;
+    height: 300px;
     flex-shrink: 0;
     
   }
@@ -19,7 +19,7 @@ Importing Google font - Open Sans */
   }
   
   .nav {
-    color: black;
+    color: white;
   
     font-family: Cairo;
     font-size: 25px;
@@ -41,7 +41,7 @@ Importing Google font - Open Sans */
   
   .left {
     background: url("C:\Users\swapn\OneDrive\Desktop\lyf of codes\sih\images\agrokrishi.png") cover no-repeat;
-    color: black;
+    color: white;
     font-family: Berlin Sans FB;
     font-size: 30px;
     font-style:normal;
@@ -64,26 +64,26 @@ Importing Google font - Open Sans */
   }
   
   .nav .text1 {
-    color: black;
+    color:white;
     padding: 15px 35px;
     text-decoration: none;
     font-size: 12px;
   }
   
 .main{
-    color:green;
-    text-decoration: wavy underline;
-    font-size: 40px;
+    color:black;
+    font-size: 60px;
+    text-decoration: double underline;
 }
 .main2{
     color:green;
     text-decoration: wavy underline;
-    font-size: 40px;
+    font-size: 80px;
     
 }
 .divid{
-    background-color:rgb(59, 0, 209);
-    color:white;
+    background-color:khaki;
+    color:black;
 }
 .org{
     font-size: 25px;
