@@ -1,0 +1,56 @@
+/* Reset some default browser styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container */
+.top_padding1 {
+    padding-top: 20px; /* Adjust as needed */
+    text-align: center; /* Center align the slider */
+}
+
+/* Style the banner (slider) */
+.banner {
+    width: 100%; /* Make the slider take the full width of its container */
+    overflow: hidden; /* Hide overflowing content (in case images are larger) */
+    position: relative; /* Establish a positioning context */
+}
+
+/* Style the slider itself */
+.csslider {
+    position: relative;
+    max-width: 100%; /* Limit the slider's maximum width */
+    margin: 0 auto; /* Center the slider horizontally */
+}
+
+/* Style the slides */
+.csslider ul {
+    list-style: none; /* Remove default list styles */
+    display: flex; /* Display slides in a row */
+    transition: transform 0.5s ease; /* Add smooth transition for slide changes */
+}
+
+.csslider li {
+    min-width: 100%; /* Ensure each slide takes the full width of the slider */
+    flex-shrink: 0; /* Prevent slides from shrinking */
+}
+
+/* Style the images within the slides */
+.csslider img {
+    width: 100%; /* Make the images responsive within slides */
+    height: auto;
+}
+
+/* Style the radio input buttons */
+.cs_anchor {
+    display: none; /* Hide the radio input buttons */
+}
+
+/* Style the "Next" and "Previous" buttons if needed */
+/* You can add these buttons and style them as required */
+
+/* Style the pause button if needed */
+/* You can add a pause button and style it as required */
+
+/* Add additional custom styles as needed */
